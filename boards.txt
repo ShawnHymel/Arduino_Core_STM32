@@ -655,6 +655,19 @@ GenF0.menu.pnum.DEMO_F030F4_16M.build.board=DEMO_F030F4_16M
 GenF0.menu.pnum.DEMO_F030F4_16M.build.product_line=STM32F030x6
 GenF0.menu.pnum.DEMO_F030F4_16M.build.variant=DEMO_F030F4
 
+# YAS-0_F070CB board
+GenF0.menu.pnum.YAS-0_F070CB=YAS-0
+GenF0.menu.pnum.YAS-0_F070CB.upload.maximum_size=122880
+GenF0.menu.pnum.YAS-0_F070CB.upload.maximum_data_size=15168
+GenF0.menu.pnum.YAS-0_F070CB.build.mcu=cortex-m0
+GenF0.menu.pnum.YAS-0_F070CB.build.board=YAS-0_F070CB
+GenF0.menu.pnum.YAS-0_F070CB.build.series=STM32F0xx
+GenF0.menu.pnum.YAS-0_F070CB.build.product_line=STM32F070xB
+GenF0.menu.pnum.YAS-0_F070CB.build.variant=YAS-0_F070CB
+GenF0.menu.pnum.YAS-0_F070CB.build.cmsis_lib_gcc=arm_cortexM0l_math
+GenF0.menu.pnum.YAS-0_F070CB.build.startup_file=-DCUSTOM_STARTUP_FILE
+GenF0.menu.pnum.YAS-0_F070CB.build.extra_flags=-D{build.product_line} {build.enable_usb} {build.xSerial} -DVECT_TAB_OFFSET=0x2000
+
 # Upload menu
 GenF0.menu.upload_method.swdMethod=STM32CubeProgrammer (SWD)
 GenF0.menu.upload_method.swdMethod.upload.protocol=0
